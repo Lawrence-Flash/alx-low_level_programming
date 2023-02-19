@@ -4,8 +4,9 @@
  */
 #include <stdio.h>
 /**
- * main - main block
- * return: 0
+ * main - entry point 
+ * Description: prints "Programming is like building a multilingual puzzle."
+ * return: always return a 0(Success).
  */
 int main(void)
 {

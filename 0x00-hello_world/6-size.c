@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * Description: main - Prints the sizes of each data types
- * Return: always 0 
+ * Return: always 0
  *
  */
- int main(void)
- {
+int main(void)
+{
 	int a;
 	long int b;
 	long long int c;
@@ -18,5 +18,5 @@
 	printf("Size of a long long int: %lu byte(s) \n", (unsigned long) sizeof(c));
 	printf("Size of a float: %lu byte(s) \n", (unsigned long) sizeof(f));
 
-	return (0);	
- } 	
+	return (0);
+}

@@ -5,8 +5,10 @@
 #include <stdio.h>
 /**
  * main - entry point 
+ *
  * Description: prints "Programming is like building a multilingual puzzle."
- * return: always return a 0(Success).
+ *
+ * return: 0
  */
 int main(void)
 {

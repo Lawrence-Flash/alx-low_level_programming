@@ -1,3 +1,7 @@
+/*
+ * file: 4-puts.c
+ * Auth: Sphamandla Lawrence Tshabalal
+ */
 #include <stdio.h>
 /**
  * main - main block

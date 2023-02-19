@@ -2,7 +2,7 @@
 /**
  * Description: main - Prints with proper grammar,
  * but the outcome is a piece of art,
- * Return - always 0
+ * Return: always 0
  */
 
 int main(void)

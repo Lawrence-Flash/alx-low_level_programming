@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	puts("_puchar\n");
+	puts("_puchar\");
 	return (0);
 }

@@ -1,7 +1,9 @@
 #include "main.h"
  /**
   * Description: the main Entry Point
-  *
+  * this main method prints different characters
+  * form the main.h header file which contains many
+  * methods/functions.
   * Return: the main always returns 0
   */
 int main(void)

@@ -1,10 +1,18 @@
-#include <stdio.h>
-/**
- * Description: main-Prints _putchar followed by a new line
- * Return: 0
- */
+#include "main.h"
+ /**
+  * Description: main-Prints different characters
+  * Return: always 0
+  */
 int main(void)
 {
-	puts("_puchar\");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }

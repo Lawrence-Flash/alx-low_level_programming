@@ -1,7 +1,8 @@
 #include "main.h"
  /**
   * Description:the main Entry Point -Prints different characters
-  * Return: always 0
+  *
+  * Return: the main always returns 0
   */
 int main(void)
 {

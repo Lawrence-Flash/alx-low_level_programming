@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * Description: main-Prints different characters
+  * Description:the main Entry Point -Prints different characters
   * Return: always 0
   */
 int main(void)

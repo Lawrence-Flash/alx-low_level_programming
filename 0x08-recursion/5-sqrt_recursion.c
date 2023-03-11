@@ -7,8 +7,9 @@
 **/
 int _sqrt_recursion(int n)
 {
-return (natural_square(n, 1));
-
+	if (n < 0)
+		return (-1);
+	return (actul_sqrt_recursion(n, 0));
 }
 
 /**
@@ -18,14 +19,13 @@ return (natural_square(n, 1));
 * Return: square root or -1
 **/
 
-int natural_square(int x, int y)
+int actual_sqrt_recursion(int x, int y)
 {
-	int s = y * y;
 
-	if (s > x)
+	if (y * y > n)
 		return (-1);
-	if (s == x)
+	if (y * y == n)
 		return (y);
-	return (natural_square(x, y + 1));
+	return (actual_sqrt_recursion(x, y + 1));
 }
 

@@ -25,4 +25,3 @@ int pnumber(int x, int n)
 		return (0);
 	return (pnumber(x + 1, n));
 }
-

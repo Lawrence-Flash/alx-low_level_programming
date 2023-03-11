@@ -22,9 +22,9 @@ int _sqrt_recursion(int n)
 int actual_sqrt_recursion(int x, int y)
 {
 
-	if (y * y > n)
+	if (y * y > x)
 		return (-1);
-	if (y * y == n)
+	if (y * y == x)
 		return (y);
 	return (actual_sqrt_recursion(x, y + 1));
 }

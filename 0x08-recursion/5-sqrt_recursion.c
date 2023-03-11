@@ -9,7 +9,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (actul_sqrt_recursion(n, 0));
+	return (sqrt_recursion(n, 0));
 }
 
 /**
@@ -19,13 +19,13 @@ int _sqrt_recursion(int n)
 * Return: square root or -1
 **/
 
-int actual_sqrt_recursion(int x, int y)
+int sqrt_recursion(int x, int y)
 {
 
 	if (y * y > x)
 		return (-1);
 	if (y * y == x)
 		return (y);
-	return (actual_sqrt_recursion(x, y + 1));
+	return (sqrt_recursion(x, y + 1));
 }
 
